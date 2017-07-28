@@ -11,7 +11,7 @@ T.TabButton {
     implicitHeight: Helpers.calculate_implicit_height(control)
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
-    padding: control.Suru.units.SpacingLarge
+    padding: control.Suru.units.PaddingLarge
 
     contentItem: Label {
         text: control.text

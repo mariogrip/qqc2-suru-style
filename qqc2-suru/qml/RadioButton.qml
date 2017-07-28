@@ -12,7 +12,7 @@ T.RadioButton {
     implicitHeight: Helpers.calculate_implicit_height(control)
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
-    padding: control.Suru.units.SpacingMedium
+    padding: control.Suru.units.PaddingMedium
     spacing: control.Suru.units.SpacingMedium
 
     indicator: RadioIndicator {

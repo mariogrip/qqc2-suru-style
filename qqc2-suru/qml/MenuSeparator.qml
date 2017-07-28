@@ -8,8 +8,8 @@ T.MenuSeparator {
     implicitWidth: Helpers.calculate_implicit_width(control)
     implicitHeight: Helpers.calculate_implicit_height(control)
 
-    topPadding: control.Suru.units.SpacingMedium
-    bottomPadding: control.Suru.units.SpacingMedium
+    topPadding: control.Suru.units.PaddingMedium
+    bottomPadding: control.Suru.units.PaddingMedium
 
     contentItem: Rectangle {
         implicitWidth: control.Suru.units.gu(24)

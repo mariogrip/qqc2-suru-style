@@ -50,7 +50,7 @@ T.ComboBox {
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
     spacing: control.Suru.SpacingLarge
-    padding: control.Suru.SpacingMedium
+    padding: control.Suru.PaddingMedium
 
     opacity: enabled ? 1.0 : 0.3
 

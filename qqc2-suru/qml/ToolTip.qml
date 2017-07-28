@@ -14,7 +14,7 @@ T.ToolTip {
     implicitHeight: Helpers.calculate_implicit_height(control)
 
     margins: control.Suru.units.SpacingMedium
-    padding: control.Suru.units.SpacingMedium
+    padding: control.Suru.units.PaddingMedium
 
     closePolicy: T.Popup.CloseOnEscape | T.Popup.CloseOnPressOutsideParent | T.Popup.CloseOnReleaseOutsideParent
 

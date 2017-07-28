@@ -10,7 +10,7 @@ T.PageIndicator {
     implicitWidth: Helpers.calculate_implicit_width(control)
     implicitHeight: Helpers.calculate_implicit_height(control)
 
-    padding: control.Suru.units.SpacingSmall
+    padding: control.Suru.units.PaddingSmall
     spacing: control.Suru.units.SpacingSmall
 
     delegate: Rectangle {

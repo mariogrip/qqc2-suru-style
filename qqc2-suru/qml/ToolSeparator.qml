@@ -10,10 +10,10 @@ T.ToolSeparator {
     implicitWidth: Helpers.calculate_implicit_width(control)
     implicitHeight: Helpers.calculate_implicit_height(control)
 
-    leftPadding: vertical ? control.Suru.units.SpacingLarge : control.Suru.units.SpacingMedium
-    rightPadding: vertical ? control.Suru.units.SpacingLarge : control.Suru.units.SpacingMedium
-    topPadding: vertical ? control.Suru.units.SpacingMedium : control.Suru.units.SpacingLarge
-    bottomPadding: vertical ? control.Suru.units.SpacingMedium : control.Suru.units.SpacingLarge
+    leftPadding: vertical ? control.Suru.units.PaddingLarge : control.Suru.units.PaddingMedium
+    rightPadding: vertical ? control.Suru.units.PaddingLarge : control.Suru.units.PaddingMedium
+    topPadding: vertical ? control.Suru.units.PaddingMedium : control.Suru.units.PaddingLarge
+    bottomPadding: vertical ? control.Suru.units.PaddingMedium : control.Suru.units.PaddingLarge
 
     contentItem: Rectangle {
         implicitWidth: vertical ? control.Suru.units.dp(1) : control.Suru.units.gu(4)

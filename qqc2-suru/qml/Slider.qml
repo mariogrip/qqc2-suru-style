@@ -46,7 +46,7 @@ T.Slider {
     implicitWidth: horizontal ? control.Suru.units.gu(38) : control.Suru.units.gu(5)
     implicitHeight: horizontal ? control.Suru.units.gu(5) : control.Suru.units.gu(38)
 
-    padding: control.Suru.units.SpacingMedium
+    padding: control.Suru.units.PaddingMedium
     opacity: control.enabled ? 1.0 : 0.3
 
     property bool useSystemFocusVisuals: true

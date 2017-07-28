@@ -15,7 +15,7 @@ T.GroupBox {
     contentHeight: contentItem.implicitHeight || (contentChildren.length === 1 ? contentChildren[0].implicitHeight : 0)
 
     spacing: control.Suru.units.SpacingMedium
-    padding: control.Suru.units.SpacingLarge
+    padding: control.Suru.units.PaddingLarge
     topPadding: padding + (label && label.paintedWidth > 0 ? label.paintedHeight + spacing : 0)
 
     label: Label {

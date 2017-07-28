@@ -11,7 +11,7 @@ T.CheckBox {
     implicitHeight: Helpers.calculate_implicit_height_2(control, control.indicator)
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
-    padding: control.Suru.units.SpacingSmall
+    padding: control.Suru.units.PaddingSmall
     spacing: control.Suru.units.SpacingMedium
 
     indicator: CheckIndicator {

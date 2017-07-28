@@ -12,10 +12,10 @@ T.Button {
     implicitHeight: Helpers.calculate_implicit_height(control)
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
-    leftPadding: control.Suru.units.SpacingXLarge
-    rightPadding: control.Suru.units.SpacingXLarge
-    topPadding: control.Suru.units.SpacingMedium
-    bottomPadding: control.Suru.units.SpacingMedium
+    leftPadding: control.Suru.units.PaddingXLarge
+    rightPadding: control.Suru.units.PaddingXLarge
+    topPadding: control.Suru.units.PaddingMedium
+    bottomPadding: control.Suru.units.PaddingMedium
 
     property bool useSystemFocusVisuals: true
 

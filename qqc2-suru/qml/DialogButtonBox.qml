@@ -12,7 +12,7 @@ T.DialogButtonBox {
     implicitHeight: Helpers.calculate_implicit_height(control)
 
     spacing: control.Suru.units.SpacingMedium
-    padding: control.Suru.units.SpacingXLarge
+    padding: control.Suru.units.PaddingXLarge
 
     topPadding: position === T.DialogButtonBox.Footer ? control.Suru.units.SpacingMedium : control.Suru.units.SpacingXLarge
     bottomPadding: position === T.DialogButtonBox.Header ? control.Suru.units.SpacingMedium : control.Suru.units.SpacingXLarge

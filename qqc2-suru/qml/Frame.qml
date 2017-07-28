@@ -11,7 +11,7 @@ T.Frame {
     contentWidth: contentItem.implicitWidth || (contentChildren.length === 1 ? contentChildren[0].implicitWidth : 0)
     contentHeight: contentItem.implicitHeight || (contentChildren.length === 1 ? contentChildren[0].implicitHeight : 0)
 
-    padding: control.Suru.units.spacingMedium
+    padding: control.Suru.units.PaddingMedium
     spacing: control.Suru.units.spacingLarge
 
     background: Rectangle {

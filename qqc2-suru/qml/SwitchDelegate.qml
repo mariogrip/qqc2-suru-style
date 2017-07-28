@@ -11,7 +11,7 @@ T.CheckDelegate {
     implicitHeight: Helpers.calculate_implicit_height_2(control, control.indicator)
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
-    padding: control.Suru.units.SpacingLarge
+    padding: control.Suru.units.PaddingLarge
     spacing: control.Suru.units.SpacingLarge
 
     indicator: SwitchIndicator {

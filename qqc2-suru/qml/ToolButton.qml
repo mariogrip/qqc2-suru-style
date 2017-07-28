@@ -11,7 +11,7 @@ T.ToolButton {
     implicitHeight: Helpers.calculate_implicit_height(control)
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
-    padding: control.Suru.units.SpacingSmall
+    padding: control.Suru.units.PaddingSmall
     property bool useSystemFocusVisuals: true
 
     contentItem: Label {

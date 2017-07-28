@@ -14,10 +14,10 @@ T.Dialog {
     contentWidth: contentItem.implicitWidth || (contentChildren.length === 1 ? contentChildren[0].implicitWidth : 0)
     contentHeight: contentItem.implicitHeight || (contentChildren.length === 1 ? contentChildren[0].implicitHeight : 0)
 
-    leftPadding: control.Suru.units.SpacingLarge
-    rightPadding: control.Suru.units.SpacingLarge
-    topPadding: control.Suru.units.SpacingXLarge
-    bottomPadding: control.Suru.units.SpacingXLarge
+    leftPadding: control.Suru.units.PaddingLarge
+    rightPadding: control.Suru.units.PaddingLarge
+    topPadding: control.Suru.units.PaddingXLarge
+    bottomPadding: control.Suru.units.PaddingXLarge
 
     background: Rectangle {
         color: control.Suru.backgroundColor
@@ -30,9 +30,9 @@ T.Dialog {
         text: control.title
         visible: control.title
         elide: Label.ElideRight
-        topPadding: control.Suru.units.SpacingLarge
-        leftPadding: control.Suru.units.SpacingLarge
-        rightPadding: control.Suru.units.SpacingLarge
+        topPadding: control.Suru.units.PaddingLarge
+        leftPadding: control.Suru.units.PaddingLarge
+        rightPadding: control.Suru.units.PaddingLarge
 
         font.pixelSize: control.Suru.units.FontLarge
     }

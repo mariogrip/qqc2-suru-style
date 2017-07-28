@@ -12,7 +12,7 @@ T.ItemDelegate {
     baselineOffset: contentItem.y + contentItem.baselineOffset
 
     spacing: control.Suru.units.SpacingLarge
-    padding: control.Suru.units.SpacingLarge
+    padding: control.Suru.units.PaddingLarge
 
     contentItem: Label {
         leftPadding: !control.mirrored ? (control.indicator ? control.indicator.width : 0) + control.spacing : 0
