@@ -63,6 +63,11 @@ class QQuickSuruUnits : public QObject
     Q_PROPERTY(float SpacingLarge READ spacingLarge CONSTANT)
     Q_PROPERTY(float SpacingXLarge READ spacingXLarge CONSTANT)
 
+    Q_PROPERTY(float PaddingSmall READ spacingSmall CONSTANT)
+    Q_PROPERTY(float PaddingMedium READ spacingMedium CONSTANT)
+    Q_PROPERTY(float PaddingLarge READ spacingLarge CONSTANT)
+    Q_PROPERTY(float PaddingXLarge READ spacingXLarge CONSTANT)
+
     Q_PROPERTY(float RadiusSmall READ radiusSmall CONSTANT)
     Q_PROPERTY(float RadiusMedium READ radiusMedium CONSTANT)
     Q_PROPERTY(float RadiusLarge READ radiusLarge CONSTANT)
