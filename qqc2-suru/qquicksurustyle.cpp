@@ -49,7 +49,7 @@ static QRgb qquicksuru_color(QQuickSuruStyle::Color colorRole)
 {  
     static const QRgb colors[] = {
         0xFFFFFFFF, // White
-        0xFFF7F7F7, // Porcelain
+        0xFFF5F5F5, // Porcelain
         0xFFCDCDCD, // Silk
         0xFF888888, // Ash
 
