@@ -24,12 +24,6 @@
 #define GRID_UNIT_PX 8.0
 #define UNITS_BASE_SIZE QQuickSuruUnits::gu(1)
 
-/*** SPACING ***/
-#define SPACING_SMALL_MULTIPLIER 0.5
-#define SPACING_MEDIUM_MULTIPLIER 1.0
-#define SPACING_LARGE_MULTIPLIER 2.0
-#define SPACING_XLARGE_MULTIPLIER 4.0
-
 
 /*** BREAKPOINTS ***/
 // from http://design.italia.it/linee-guida/layout/griglie/
@@ -98,10 +92,10 @@ public:
     }
 
     // Spacing
-    static float spacingSmall() { return UNITS_BASE_SIZE * SPACING_SMALL_MULTIPLIER; }
-    static float spacingMedium() { return UNITS_BASE_SIZE * SPACING_MEDIUM_MULTIPLIER; }
-    static float spacingLarge() { return UNITS_BASE_SIZE * SPACING_LARGE_MULTIPLIER; }
-    static float spacingXLarge() { return UNITS_BASE_SIZE * SPACING_XLARGE_MULTIPLIER; }
+    static float spacingSmall() { return QQuickSuruUnits::gu(0.5); }
+    static float spacingMedium() { return QQuickSuruUnits::gu(1); }
+    static float spacingLarge() { return QQuickSuruUnits::gu(2); }
+    static float spacingXLarge() { return QQuickSuruUnits::gu(4); }
 
     // Breakpoints
     static float breakpointSmartphone() { return BREAKPOINT_LARGER_THAN_SMARTPHONE; }
