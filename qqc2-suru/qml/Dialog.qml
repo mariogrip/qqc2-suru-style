@@ -21,7 +21,7 @@ T.Dialog {
 
     background: Rectangle {
         color: control.Suru.backgroundColor
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
         border.width: control.Suru.units.dp(1)
         border.color: control.Suru.dividerColor
     }

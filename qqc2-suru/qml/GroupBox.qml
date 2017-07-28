@@ -32,7 +32,7 @@ T.GroupBox {
         width: parent.width
         height: parent.height - control.topPadding + control.padding
 
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
         color: control.Suru.foregroundColor
         border.color: control.Suru.dividerColor
         border.width: control.Suru.units.dp(1)

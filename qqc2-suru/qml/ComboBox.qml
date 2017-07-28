@@ -90,7 +90,7 @@ T.ComboBox {
         implicitWidth: control.Suru.units.gu(20)
         implicitHeight: control.Suru.units.gu(4)
 
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
 
         border.width: control.flat ? 0 : control.Suru.units.dp(1)
 
@@ -129,7 +129,7 @@ T.ComboBox {
             color: control.Suru.foregroundColor
             border.color: control.Suru.dividerColor
             border.width: control.Suru.units.dp(1)
-            radius: control.Suru.units.dp(4)
+            radius: control.Suru.units.RadiusMedium
         }
     }
 }

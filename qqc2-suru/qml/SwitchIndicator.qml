@@ -14,7 +14,7 @@ Item {
         width: parent.width
         height: parent.height
 
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
         color: control.pressed
             ? control.Suru.baseColor
             : control.checked ? control.Suru.positiveColor : control.Suru.baseColor
@@ -36,7 +36,7 @@ Item {
     Rectangle {
         width: control.Suru.units.gu(2.5)
         height: control.Suru.units.gu(2.5)
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
 
         color: control.Suru.backgroundColor
 

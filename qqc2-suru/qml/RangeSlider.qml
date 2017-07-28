@@ -60,7 +60,7 @@ T.RangeSlider {
 
         border.width: control.Suru.units.dp(1)
         border.color: control.Suru.dividerColor
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
         color: control.first.pressed
                ? control.Suru.baseColor
                : control.first.hovered ? control.Suru.foregroundColor : control.Suru.backgroundColor
@@ -78,7 +78,7 @@ T.RangeSlider {
 
         border.width: control.Suru.units.dp(1)
         border.color: control.Suru.dividerColor
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
         color: control.second.pressed
                ? control.Suru.baseColor
                : control.second.hovered ? control.Suru.foregroundColor : control.Suru.backgroundColor

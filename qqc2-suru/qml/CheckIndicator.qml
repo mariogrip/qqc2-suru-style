@@ -17,7 +17,7 @@ Item {
             : control.checked ? control.Suru.foregroundColor : control.Suru.dividerColor
 
         border.width: control.Suru.units.dp(1)
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
 
         Behavior on color {
             ColorAnimation { duration: control.Suru.animation.FastDuration }

@@ -62,7 +62,7 @@ T.Slider {
 
         border.width: control.Suru.units.dp(1)
         border.color: control.Suru.dividerColor
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
         color: control.pressed
                ? control.Suru.baseColor
                : control.hovered ? control.Suru.foregroundColor : control.Suru.backgroundColor

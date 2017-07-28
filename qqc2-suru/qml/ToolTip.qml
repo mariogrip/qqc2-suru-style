@@ -46,7 +46,7 @@ T.ToolTip {
 
     background: Rectangle {
         color: control.Suru.tooltipColor
-        radius: control.Suru.units.dp(4)
+        radius: control.Suru.units.RadiusMedium
         border.color: control.Suru.dividerColor
         border.width: control.Suru.units.dp(1)
         opacity: 0.6    // Match opacity of overlayColor

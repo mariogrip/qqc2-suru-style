@@ -62,7 +62,7 @@ T.Menu {
         implicitWidth: control.Suru.units.gu(25)
         implicitHeight: control.Suru.units.gu(6)
 
-        radius: control.Suru.units.dp(2)
+        radius: control.Suru.units.RadiusSmall
         color: control.Suru.foregroundColor
 
         border.color: control.Suru.dividerColor
