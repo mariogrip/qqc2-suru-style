@@ -1,7 +1,6 @@
 import QtQuick 2.8
 import QtQuick.Templates 2.1 as T
 import QtQuick.Controls.Suru 2.1
-import QtQuick.Controls.Material.impl 2.1 as Material	// drop shadows
 
 import "suru_helpers.js" as Helpers
 
@@ -41,13 +40,25 @@ T.Button {
                  : control.Suru.foregroundColor
 
         radius: control.Suru.units.RadiusMedium
-        //border.width: control.Suru.units.dp(1)
-        //border.color: control.Suru.dividerColor
 
-        // TODO: Use our own implementation of drop shadows
-        layer.enabled: control.enabled && !control.flat
-        layer.effect: Material.ElevationEffect {
-            elevation: 1
+        Rectangle {
+            width: control.background.width
+            height: control.background.height
+            radius: control.Suru.units.RadiusMedium
+
+            y: control.Suru.units.dp(1)
+
+            // FIXME: Perhaps we shouldn't use 'z' property...
+            z: -1000
+
+            /*
+              TODO: "#cdcdcd" with 0.5 opacity is visually equal to "#e6e6e6"
+              Could we add it to Suru palette if extensively used?
+            */
+            color: control.Suru.dividerColor
+            opacity: 0.5
+
+            visible: control.enabled && !control.flat
         }
     }
 }
