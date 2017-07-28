@@ -63,6 +63,10 @@ class QQuickSuruUnits : public QObject
     Q_PROPERTY(float SpacingLarge READ spacingLarge CONSTANT)
     Q_PROPERTY(float SpacingXLarge READ spacingXLarge CONSTANT)
 
+    Q_PROPERTY(float RadiusSmall READ radiusSmall CONSTANT)
+    Q_PROPERTY(float RadiusMedium READ radiusMedium CONSTANT)
+    Q_PROPERTY(float RadiusLarge READ radiusLarge CONSTANT)
+
     Q_PROPERTY(float BreakpointSmartphone READ breakpointSmartphone CONSTANT)
     Q_PROPERTY(float BreakpointDesktop READ breakpointDesktop CONSTANT)
     Q_PROPERTY(float BreakpointWideDesktop READ breakpointWideDesktop CONSTANT)
@@ -96,6 +100,11 @@ public:
     static float spacingMedium() { return QQuickSuruUnits::gu(1); }
     static float spacingLarge() { return QQuickSuruUnits::gu(2); }
     static float spacingXLarge() { return QQuickSuruUnits::gu(4); }
+
+    // Radius
+    static float radiusSmall() { return QQuickSuruUnits::dp(2); }
+    static float radiusMedium() { return QQuickSuruUnits::dp(4); }
+    static float radiusLarge() { return QQuickSuruUnits::dp(8); }
 
     // Breakpoints
     static float breakpointSmartphone() { return BREAKPOINT_LARGER_THAN_SMARTPHONE; }
