@@ -35,7 +35,7 @@
 ****************************************************************************/
 
 #include "qquicksurutheme_p.h"
-#include "private/qquicksuruunits.h"
+#include "qquicksuruunits.h"
 
 #include <QtGui/qfont.h>
 #include <QtGui/qfontinfo.h>
